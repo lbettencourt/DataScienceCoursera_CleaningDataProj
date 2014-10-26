@@ -35,10 +35,12 @@ Original data provided:
 ##### Check the README.txt file for further details about this dataset. 
 ========================================================================================
 ## For this exercise:
-### There is a script available:
+### There is a script: 
 
 #### run_analysis.R 
 (R version 3.1.1 64 bit)
+
+###### https://github.com/lbettencourt/DataScienceCoursera_CleaningDataProj/blob/master/run_analysis.R
 
 #### Requires the follwing packages to be installed:
 - plyr
