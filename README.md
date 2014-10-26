@@ -33,7 +33,7 @@ Original data provided:
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
 
-Check the README.txt file for further details about this dataset. 
+##### Check the README.txt file for further details about this dataset. 
 ========================================================================================
 
 ## For this exercise:
