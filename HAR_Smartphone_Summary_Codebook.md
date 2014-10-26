@@ -19,7 +19,7 @@ Subsequently, the body linear acceleration and angular velocity were derived in 
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing FrequencyBodyAcceleration-XYZ, FrequencyBodyAccelerationJerk-XYZ, FrequencyBodyGyroscope-XYZ, FrequencyBodyAccelerationJerkMagnitude, FrequencyBodyGyroMagnitude, FrequencyBodyGyroscopeJerkMagnitude. (Note the 'frequency' to indicate frequency domain signals). 
 
 These signals were used to estimate variables of the feature vector for each pattern:  
--XYZ is used to denote 3-axial signals in the X, Y and Z directions.
+- -XYZ is used to denote 3-axial signals in the X, Y and Z directions.
 ====================================
 | ------------------------------------------------------------------------------------------------------------ |
 | Column Name                                 | Column Description                                             |
