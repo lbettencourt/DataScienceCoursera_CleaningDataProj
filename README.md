@@ -3,7 +3,6 @@
 # Getting and Cleaning Data
 ## Using the Human Activity Recognition Using Smartphones Dataset
 ### Version 1.0
-
 ==================================================================
 ## Background information
 The original datasets and information are
@@ -35,7 +34,6 @@ Original data provided:
 
 ##### Check the README.txt file for further details about this dataset. 
 ========================================================================================
-
 ## For this exercise:
 ### There is a script available:
 
@@ -43,23 +41,23 @@ Original data provided:
 (R version 3.1.1 64 bit)
 
 #### Requires the follwing packages to be installed:
-plyr
-data.table
+- plyr
+- data.table
 
 Created by:  LBettencourt 10/25/2014
 
 #### This script does the following:
 1.  Reads in the following datasets from the HAR Smartphones data respository:
-    x_test.txt:  contains subject test results data
-    y_test.txt:  contains  test data activity codes
-    subject_test.txt: contains test subject IDs
-    x_train.txt:  contains subject training data
-    y_train.txt:  contains  training data activity codes
-    subject_train.txt: contains training subject IDs
+    - x_test.txt:  contains subject test results data
+    - y_test.txt:  contains  test data activity codes
+    - subject_test.txt: contains test subject IDs
+    - x_train.txt:  contains subject training data
+    - y_train.txt:  contains  training data activity codes
+    - subject_train.txt: contains training subject IDs
 2.  Combines subject, activity, and results data for both test and training subjects
 3.  Combines test and training data to form one dataset
 4.  Reads in column descriptions from the following file:
-    features.txt
+    - features.txt
 5.  Subsets features file to only labels for mean() and std() and tidies up the names
 6.  Uses features file to subset main dataset and to rename columns to "tidy" names
 7.  Reads in the activity descriptions from activity_labels.txt
@@ -69,7 +67,7 @@ Created by:  LBettencourt 10/25/2014
 
 ###  The tidy dataset produced is available here:
 
-###  A codebook describing the dataset is here
+###  A codebook describing the dataset is here:
 
 
 
