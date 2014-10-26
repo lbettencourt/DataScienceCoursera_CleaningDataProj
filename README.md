@@ -24,7 +24,7 @@ and gravity. The gravitational force is assumed to have only low frequency compo
 cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time 
 and frequency domain.
 
-Original data provided:
+Original data provided (see the README.txt file on the HAR Smartphone website for further details about these data):
 
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
 - Triaxial Angular velocity from the gyroscope. 
@@ -32,7 +32,6 @@ Original data provided:
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
 
-##### Check the README.txt file for further details about this dataset. 
 ========================================================================================
 ## For this exercise:
 ### There is a script: 
