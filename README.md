@@ -1,4 +1,4 @@
-DataScienceCoursera_CleaningDataProj
+####DataScienceCoursera_CleaningDataProj
 ====================================
 # Getting and Cleaning Data
 ## Using the Human Activity Recognition Using Smartphones Dataset
