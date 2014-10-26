@@ -16,17 +16,17 @@ The raw data come from the accelerometer and gyroscope 3-axial raw signals (Time
 
 Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (TimeBodyAccelerationJerk-XYZ and TimeBodyGyroscopeJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (TimeBodyAccelerationMagnitute, TimeGravityAccerationMagnitude, TimeBodyAccelerationJerkMagnitude, TimeBodyGyroscopeMagnitude, TimeBodyGyroscopeJerkMagnitude). 
 
-##### Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing FrequencyBodyAcceleration-XYZ, FrequencyBodyAccelerationJerk-XYZ, FrequencyBodyGyroscope-XYZ, FrequencyBodyAccelerationJerkMagnitude, FrequencyBodyGyroMagnitude, FrequencyBodyGyroscopeJerkMagnitude.  (Note the 'frequency' to indicate frequency domain signals). 
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing FrequencyBodyAcceleration-XYZ, FrequencyBodyAccelerationJerk-XYZ, FrequencyBodyGyroscope-XYZ, FrequencyBodyAccelerationJerkMagnitude, FrequencyBodyGyroMagnitude, FrequencyBodyGyroscopeJerkMagnitude.  (Note the 'frequency' to indicate frequency domain signals). 
 
-##### These signals were used to estimate variables of the feature vector for each pattern: XYZ is used to denote 3-axial signals in the X, Y and Z directions.
+These signals were used to estimate variables of the feature vector for each pattern: XYZ is used to denote 3-axial signals in the X, Y and Z directions.
+
 ====================================
 
 | Column Name                                 | Column Description                                             |
 | ------------------------------------------- | -------------------------------------------------------------- |
 | subjectid                                   | Subject ID                                                     |
 | activitydescription                         | Activity Description                                           |
-| timebodyaccelerationmeanx                   | Average Time of Body Acceleration for mean of X                |
-|                                             | (per activity/subject)                                         |
+| timebodyaccelerationmeanx                   | Average Time of Body Acceleration for mean of X (per activity/subject)|
 | timebodyaccelerationmeany                   | Average Time of Body Acceleration for mean of Y                |
 |                                             | (per activity/subject)                                         | 
 | timebodyaccelerationmeanz                   | Average Time of Body Acceleration for mean of Z                |
@@ -153,5 +153,4 @@ Subsequently, the body linear acceleration and angular velocity were derived in 
 | frequencybodygyroscopejerkmagnitudemean     | Average Frequency of Mean Body Gyroscope Jerk Magnitude        |
 | frequencybodygyroscopejerkmagnitudestd      | Average Frequency for the standard deviation of Body           |
 |                                             | Gyroscope Jerk Magnitude                                       |
-| ------------------------------------------------------------------------------------------------------------ |
  
