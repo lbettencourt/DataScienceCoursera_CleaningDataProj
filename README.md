@@ -65,9 +65,11 @@ Created by:  LBettencourt 10/25/2014
 9.	From the main dataset, creates a second, independent tidy data set with the average of each variable for each 
     activity and each subject.
 
-###  The tidy dataset produced is available here:  https://github.com/lbettencourt/DataScienceCoursera_CleaningDataProj/blob/master/HAR_Smartphone_Summary.txt
+###  The tidy dataset produced is available here:  
+###### https://github.com/lbettencourt/DataScienceCoursera_CleaningDataProj/blob/master/HAR_Smartphone_Summary.txt
 
-###  A codebook describing the dataset is here:
+###  A codebook describing the dataset is here:  
+###### https://github.com/lbettencourt/DataScienceCoursera_CleaningDataProj/blob/master/HAR_Smartphone_Summary_Codebook.md
 
 
 
